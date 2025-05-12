@@ -1,1 +1,1 @@
-#VA Scan Groovy Plugin Project
+# VA Scan Groovy Plugin Project
