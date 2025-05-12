@@ -1,0 +1,55 @@
+# Gradle build directories and wrapper files (but keep build.gradle and settings.gradle)
+.gradle/
+build/
+
+# Gradle wrapper files (specific to Gradle version)
+gradle-wrapper.jar
+
+# IDE specific files (e.g., VS Code)
+.vscode/
+
+# Compiled binaries and libraries
+bin/
+
+# Ignore all other Gradle-related files (but keep build.gradle and settings.gradle)
+*.gradle
+!build.gradle
+!settings.gradle
+
+# Generated .class files (from Java, Kotlin, etc.)
+*.class
+
+# JAR files (build artifacts)
+*.jar
+*.war
+*.ear
+
+# Test and build output directories
+test-project/build/
+appsec-plugin/build/
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.swo
+
+# OS specific files
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# Environment variables
+.env
+
+# Database files
+*.db
+*.sqlite
+*.bak
+
+# Ignore all sensitive files (e.g., private keys, credentials)
+*.key
+*.pem
+*.cer
