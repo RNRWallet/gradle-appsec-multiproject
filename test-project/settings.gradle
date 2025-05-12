@@ -1,3 +1,0 @@
-
-rootProject.name = 'test-project'
-includeBuild '../appsec-plugin'
